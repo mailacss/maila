@@ -1,8 +1,16 @@
-*{
-    width: 100%;
+* {
     text-align: left;
-
 }
+
+html{
+    height: 100%;
+    text-align: left;
+  }
+  
+body{
+    margin-top: 5%;
+    background-color: rgb(229, 229, 240);
+  }
 
 h1 {
     text-align: center;
@@ -13,3 +21,13 @@ h1 {
     text-align: left;
 }
 
+.form-label {
+    padding-left: 12px;
+}
+
+#result {
+    background-color: rgb(230, 214, 214);
+    height: 100px;
+    margin-top: 5vh;
+    display: none;
+}
