@@ -1,5 +1,7 @@
 * {
     text-align: left;
+    border-color: rgb(125, 157, 156);
+    color: rgb(44, 66, 68);
 }
 
 html{
@@ -9,7 +11,7 @@ html{
   
 body{
     margin-top: 5%;
-    background-color: rgb(229, 229, 240);
+    background-color: rgb(228, 220, 207);
   }
 
 h1 {
@@ -25,9 +27,38 @@ h1 {
     padding-left: 12px;
 }
 
+#maindiv {
+    background-color: rgb(247, 244, 240);
+    padding: 5vh;
+}
+
+.img-thumbnail {
+    border: none;
+    padding: 0;
+}
+
 #result {
-    background-color: rgb(230, 214, 214);
+    display: none;
+    border-radius: 5px;
+    background-color: rgb(125, 157, 156);
     height: 100px;
     margin-top: 5vh;
-    display: none;
+    color: rgb(247, 244, 240);
+}
+
+.resultado {
+    color: rgb(247, 244, 240);
+    text-align: center;
+}
+
+
+
+#button:hover { 
+    background-color: rgb(125, 157, 156); 
+
+}
+
+#espaceup{
+    margin-top: 3vh;
+    margin-bottom: 0px;
 }

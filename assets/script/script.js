@@ -40,17 +40,17 @@ function resultado(){
     if (option == "1") {
 
         resultado = Math.sqrt(Math.pow(Math.max(num1,num2),2) - Math.pow(Math.min(num1,num2), 2)).toFixed(2);
-        resulta.innerHTML = resultado;
+        resulta.innerHTML = ("Oposto: " + resultado);
 
     } else if (option == "2") {
 
         resultado = Math.sqrt(Math.pow(Math.max(num1,num2),2) - Math.pow(Math.min(num1,num2), 2)).toFixed(2);
-        resulta.innerHTML = resultado;
+        resulta.innerHTML = ("Adjacente: " + resultado);
 
     } else if (option == "3") {
 
         resultado = Math.hypot(num1, num2).toFixed(2);
-        resulta.innerHTML = resultado;
+        resulta.innerHTML = ("Hipotenusa: " + resultado);
 
     }   
 }
