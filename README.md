@@ -8,5 +8,6 @@
  Página Web em HMTL, CSS e Javascript que permite realizar o cálculo da relação do Teorema de Pitágoras.
  
  # Autores
-- <a href="https://github.com/mailacss">Maila Cardoso</a>
-<img src="https://avatars.githubusercontent.com/u/73539084?v=4" alt="">
+ <img src="https://avatars.githubusercontent.com/u/73539084?v=4" alt="" width=115> 
+ <a href="https://github.com/mailacss">Maila Cardoso</a>
+
