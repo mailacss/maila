@@ -10,14 +10,14 @@ function habilita(){
         var labe2 = document.getElementById('label2');
 
         if (option == "1") {
-            labe1.innerHTML  = "Lado b";
-            labe2.innerHTML  = "Lado c";
+            labe1.innerHTML  = "Lado b | Cateto Adjacente";
+            labe2.innerHTML  = "Lado c | Hipotenusa";
         } else if (option == "2") {
-            labe1.innerHTML  = "Lado a";
-            labe2.innerHTML  = "Lado c";
+            labe1.innerHTML  = "Lado a | Cateto Oposto";
+            labe2.innerHTML  = "Lado c | Hipotenusa";
         } else if (option == "3") {
-            labe1.innerHTML  = "Lado a";
-            labe2.innerHTML  = "Lado b";
+            labe1.innerHTML  = "Lado a | Cateto Oposto";
+            labe2.innerHTML  = "Lado b | Cateto Adjacente";
         }
 
     }else{
@@ -35,24 +35,22 @@ function resultado(){
     var num1 = document.getElementById("field1").value;
     var num2 = document.getElementById("field2").value;
     var resultado = 0;
-    var result = document.getElementById('result_text')
+    var resulta = document.getElementById('result_text')
     
     if (option == "1") {
-        labe1.innerHTML  = "Lado b";
-        labe2.innerHTML  = "Lado c";
 
+        resultado = Math.sqrt(Math.pow(Math.max(num1,num2),2) - Math.pow(Math.min(num1,num2), 2)).toFixed(2);
+        resulta.innerHTML = resultado;
 
     } else if (option == "2") {
-        labe1.innerHTML  = "Lado a";
-        labe2.innerHTML  = "Lado c";
 
+        resultado = Math.sqrt(Math.pow(Math.max(num1,num2),2) - Math.pow(Math.min(num1,num2), 2)).toFixed(2);
+        resulta.innerHTML = resultado;
 
     } else if (option == "3") {
 
-        resultado = Math.hypot(num1, num2);
-        result.innerHTML = resultado;
+        resultado = Math.hypot(num1, num2).toFixed(2);
+        resulta.innerHTML = resultado;
 
+    }   
 }
-}
-
-
