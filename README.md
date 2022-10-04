@@ -1,11 +1,13 @@
-<img src="./assets/capa.png" alt="" <style>align-self:center</style> >
+# Pythogoras Calculator
 
-- Página Web em HMTL, CSS e Javascript que permite realizar o cálculo da relação do Teorema de Pitágoras.
-- Nessa página é possível calcular, obtendo um resultado com duas casas decimais, a hipotenusa, o cateto adjacente e oposto de um triângulo retângulo.
-- A página está finalizada e em funcionamento.
-- Para utilizar basta utilizar o link do GitHub Pages
+## Cálculo da relação do Teorema de Pitágoras
+Nessa página é possível calcular, **obtendo um resultado com duas casas decimais**, a hipotenusa, o cateto adjacente e oposto de um triângulo retângulo.
 
- Página Web em HMTL, CSS e Javascript que permite realizar o cálculo da relação do Teorema de Pitágoras.
+## A página está finalizada e em funcionamento.
+Essa página foi feita em HMTL, CSS (com Bootstrap) e Javascript.
+- Para utilizar basta utilizar o link do <a href="https://mailacss.github.io">GitHub Pages</a>
+
+Também é possível clonar o repositório e executar localmente.
  
  # Autores
  <img src="https://avatars.githubusercontent.com/u/73539084?v=4" alt="" width=115> 
